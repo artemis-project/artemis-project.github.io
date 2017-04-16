@@ -1,37 +1,18 @@
-## A modern, Unified desktop environment
+## The desktop of Unity, with the framework of Plasma
+The Enjade desktop environment is a community project to recreate and continue the Unity desktop environment. From the versatile Dash down to the global menu, Enjade promises to provide the familiar experience Ubuntu users love while adding new features to keep it up with the latest trends.
 
-You can use the [editor on GitHub](https://github.com/enjade-project/enjade-project.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+## (Planned) Features:
+* Entire desktop created from Plasma
+* Compatibility with the Wayland display server
+* Distribution through a Snappy/Flatpak package
+* Versatile search functionality, including:
+    * Calculations
+    * Google searches
+    * Dictionary
+    * Files and apps
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Made for the community
+Enjade is made for the community by the community. Check our [GitHub repository](https://www.github.com/enjade-project/) and see how you can contribute today!
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/enjade-project/enjade-project.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Contact
+The Enjade project is currently led by Marquis Kurt, contactable through [Telegram](http://t.me/ubunturox104) or [email](mailto:ubunturox104@gmail.com). New Telegram groups and IRC channels to come soon! 
