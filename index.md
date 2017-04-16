@@ -1,3 +1,5 @@
+![Concept of Enjade, created by KDE Plasma interface](enjade-concept-kde.png)
+###### KDE Desktop that shows the concept of the Enjade desktop
 ## The desktop of Unity, with the framework of Plasma
 The Enjade desktop environment is a community project to recreate and continue the Unity desktop environment. From the versatile Dash down to the global menu, Enjade promises to provide the familiar experience Ubuntu users love while adding new features to keep it up with the latest trends.
 
