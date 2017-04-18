@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 echo Gitty 1.0
-echo (C) 2017 | Marquis Kurt.
+echo Copyright 2017 | Marquis Kurt.
 echo Licensed under GNU GPL v3.
 echo
 echo Beginning commit sequence...
