@@ -19,4 +19,4 @@ Enjade is made for the community by the community. Check our [GitHub repository]
 ## Contact
 The Enjade project is currently led by Marquis Kurt, contactable through [Telegram](http://t.me/ubunturox104) or [email](mailto:ubunturox104@gmail.com).
 
-We also have a Telegram group, which you can [join here](https://t.me/joinchat/AAAAAEGLuM2Wg84d22lVlg).
+We also have a Telegram group, which you can [join here](https://t.me/enjadeproject).
