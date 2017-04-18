@@ -11,10 +11,12 @@ The Enjade desktop environment is a community project to recreate and continue t
     * Dictionary
     * Files and apps
 
+_If you want to see what else we're planning, check our [Enjade wiki](https://github.com/enjade-project/enjade/wiki)._
+
 ## Made for the community
 Enjade is made for the community by the community. Check our [GitHub repository](https://www.github.com/enjade-project/) and see how you can contribute today!
 
 ## Contact
 The Enjade project is currently led by Marquis Kurt, contactable through [Telegram](http://t.me/ubunturox104) or [email](mailto:ubunturox104@gmail.com).
 
-We also have a Telegram group, which you can [join here](https://t.me/joinchat/AAAAAArHselMVbzimzqbjQ).
+We also have a Telegram group, which you can [join here](https://t.me/enjadeproject).
