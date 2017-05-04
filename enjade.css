@@ -6,8 +6,34 @@ div.legal.clearfix {
 }
 header.banner .nav-primary.nav-right .logo-enjade {
             background-image: url({{ site.baseurl }}/enjade-logo.svg);
+font-size: 18px;
+margin-bottom: 0;
+position: relative;
+text-transform: lowercase;
+float: left;
+margin: 0;
+display: inline-block;
+height: 32px;
+min-width: 128px;
+margin-right: -20px;
+margin-left: 10px;
+
+padding: 7px 14px 9px 0
         }
 
         .logo-enjade {
             background-image: url({{ site.baseurl }}/enjade-logo.svg);
+font-size: 18px;
+margin-bottom: 0;
+position: relative;
+text-transform: lowercase;
+float: left;
+margin: 0;
+display: inline-block;
+height: 32px;
+min-width: 128px;
+margin-right: -20px;
+margin-left: 10px;
+
+padding: 7px 14px 9px 0
         }
