@@ -9,14 +9,20 @@
     <link rel = "stylesheet" href = "{{ site.baseurl }}/enjade.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <meta name="author" content="Enjade Project Team">
+    <style>
+        header.banner .nav-primary.nav-right .logo-ubuntu {
+            background-image: url({{ site.baseurl }}/enjade-logo.svg);
+        }
+    </style>
 </head>
 
 <body>
-    <header id = "banner" class="banner global" role="banner">
+    <header class="banner global enterprise" role="banner">
         <nav role="navigation" id = "nav" class="nav-primary nav-right">
             <div class="logo">
-                <a href="/">
-                    <h2>enjade &nbsp;</h2>
+                <a class="logo-ubuntu" href="/">
+                    <img width="106" height="25" src="{{ site.baseurl }}/enjade-logo.svg" alt="Enjade" />
+                    <span>desktop</span>
                 </a>
             </div>
             <ul>
