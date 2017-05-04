@@ -4,3 +4,11 @@
 div.legal.clearfix {
     background: none;
 }
+
+header.banner .nav-primary.nav-right .logo-ubuntu {
+            background-image: url({{ site.baseurl }}/enjade-logo.svg);
+        }
+
+        .logo-ubuntu {
+            background-image: url({{ site.baseurl }}/enjade-logo.svg);
+        }
