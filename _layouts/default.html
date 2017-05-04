@@ -57,6 +57,50 @@
 <script src="https://assets.ubuntu.com/v1/b0601acd-modernizr.2.7.1.js"></script>
 <script src="https://assets.ubuntu.com/v1/5d7e5bbf-jquery-2.2.0.min.js"></script>
 <script src="https://assets.ubuntu.com/v1/f5bf3854-respond.min.js"></script>
-<script src="https://www.ubuntu.com/static/js/core.js?v=95c21c0"></script>
+<script>
+if (!core) { var core = {}; }
+
+core.mobileNav = function () {
+    var header = document.querySelector('header.banner');
+    var navPrimary = document.querySelector('.nav-primary');
+    var navSecondary = document.querySelector('.nav-secondary');
+    var breadcrumbLinks = document.querySelector('.breadcrumb li a');
+
+    if (navPrimary) {
+        // Add the navigation toggle
+        navToggle = document.createElement('a');
+        navToggle.classList.add('nav-toggle');
+        navToggle.id = 'menu';
+        navToggle.innerHTML = 'menu';
+        header.insertBefore(navToggle, navPrimary);
+
+        // Adds a click listener to the navigation toggle
+        navToggle.addEventListener('click', function(e) {
+            e.preventDefault();
+            // Toggle the navigations display state
+            navToggle.classList.toggle('active');
+            navPrimary.classList.toggle('active');
+            document.querySelector('#nav ul').classList.toggle('active');
+        });
+    }
+
+    if (breadcrumbLinks) {
+        // Add chevron to first link
+        var firstBreadcrumb = document.querySelector('.breadcrumb > li a');
+        var breadcrumbChevron = document.createElement('a');
+        breadcrumbChevron.classList.add('after');
+        firstBreadcrumb.insertBefore(breadcrumbChevron, firstBreadcrumb.lastChild);
+        // Add click listener to the chevron
+        breadcrumbChevron.addEventListener('click', function(e) {
+            e.preventDefault();
+            // Toggle the secondary navigations display state
+            navSecondary.classList.toggle('open');
+        });
+    }
+};
+
+core.svgFallback();
+core.mobileNav();
+</script>
 </body>
 </html>
