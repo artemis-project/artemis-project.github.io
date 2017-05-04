@@ -4,23 +4,28 @@ title: Feature Roadmap
 ---
 Besides being a desktop that imitates the layout and looks of Unity 7 (with the exceptions to theming and icons), Enjade also plans to add more functionality. This roadmap indicates new features, as well as the revival of old ones, for the desktop environment.
 
-_Note: This document does get updated regularly. Anything under the 'Completed' section indicates the feature is already implemented in Enjade._
+If you want something to be added to this roadmap, make a pull request on GitHub.
 
-## Revived (From Unity 7)
+[Go to GitHub &rsaquo;](https://www.github.com/enjade-project/enjade)
+
+## Porting from Unity 7
 * Global menu
 * Heads-up display (HUD)
 * Dash with search (no Amazon scope, though) {fullscreen and launcher options}
 * Locally-integrated menus (not in application button)
 
-## New (if in Unity 7)
+_This section looks at the features we plan to replicate and port over to Unity 7._
+
+## New features
 * Universal search - search not just apps and documents, but web sources, calculations, settings, etc.
 * Notification center (from Unity 8) - centralized area for notifications
 * Wayland compatibility - should work with KDE Plasma as well
 * Transmutability - change the accent color of the default Enjade theme
 * Simpler system settings - simplify the KDE System Settings a bit
 
+_This section focuses on new features to be implemented in the desktop environment as if Unity 7 continued development._
+
 ## Completed
 Sorry, nothing yet!
 
-Want to add something to this roadmap? Contribute by making a pull request on GitHub.
-[Go to GitHub &rsaquo;](https://www.github.com/enjade-project/enjade)
+_This section shows the features we have implemented and when._
