@@ -1,3 +1,7 @@
+---
+title: FAQ
+---
+
 # Frequently Asked Questions
 Over the course of the **Enjade Desktop** project, we've received an assortment of questions. Hopefully, this page will cover a majority of the common questions.
 
