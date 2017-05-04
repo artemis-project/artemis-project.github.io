@@ -1,8 +1,8 @@
 ---
-title: FAQ
+title: Frequently Asked Questions (FAQ)
+layout: article
 ---
 
-# Frequently Asked Questions
 Over the course of the **Enjade Desktop** project, we've received an assortment of questions. Hopefully, this page will cover a majority of the common questions.
 
 ## What is Enjade?
@@ -19,7 +19,7 @@ While creating a new desktop environment with GNOME as a backend would be ideal,
 
 In addition to focusing on Plasma, Plasma's own widgets, plasmoids, themes, etc., include particular assets that could be vital to making Enjade a reality. The release of Plasma 5.9 saw the introduction of global menus in KDE, allowing menus to be centralized to a single panel. The customizability can be seen as **superior** to GNOME, making it a great choice for use as a desktop.
 
-## Is Enjade a Plasma /fork/, or a /Look&Feel package/?
+## Is Enjade a Plasma _fork_, or a _Look&Feel package_?
 Enjade is available as a _Look&Feel package_, giving existing Plasma users an easy transition to the Enjade desktop. However, we do have plans to make an installable package via Snappy and/or Flatpak that bundles Plasma and Enjade together, with Enjade set as the default Look&Feel package for Plasma.
 
 In addition to the Look&Feel package, some of the plasmoids, like the **Enjade Launcher (Chrysalis)**, are forks of some of the default KDE plasmoids. This brings overall familiarity while adding extensibility and customizability to these plasmoids. They are automatically bundled with the Look&Feel package, making installation easy.
