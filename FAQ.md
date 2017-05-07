@@ -1,6 +1,6 @@
 ---
 title: Frequently Asked Questions (FAQ)
-layout: article
+layout: info-faq
 ---
 
 Over the course of the **Enjade Desktop** project, we've received an assortment of questions. Hopefully, this page will cover a majority of the common questions.
@@ -38,11 +38,6 @@ If you are unfamiliar with Acquainted Safari, [Acquainted Safari](http://www.acq
 While Acquainted Safari plans to use Enjade as the default desktop environment in their operating platform, [VivaOS](http://viva.acquaintedsafari.ga), there are no associations between Acquainted Safari and the Enjade community.
 
 > "Yes, I do run Acquainted Safari and am a part of Enjade, but these are separate entities; I never intended for these entities to collide with each other as a single entity, but as a connection between two communities." - Marquis Kurt  
-
-## Where did the name Enjade come from, and how do you pronounce it?
-Enjade is pronounced like you would expect: **enh - jayd**. This isn't to be confused with a word of similar spelling.
-
-"Enjade" was inspired by a potential partner and community member of Acquainted Safari: [Jaeden Gurrero](http://www.instagram.com/jaenoelani). Essentially, the syllables in her name swapped, hence the pronunciation of the name. If you want to look at this symbolically, she could easily represent Caroline from the game _Portal 2_, the successor to Cave Johnson, much like how Enjade is the successor to Unity 7.
 
 ## Free hugs?
 We could try, but we don't know how to make a plasmoid for that. :/

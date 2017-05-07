@@ -41,3 +41,8 @@ padding: 7px 14px 9px 0
 .row-construction {
   background-color: #F8ECE0;
 }
+
+.row-airball {
+    background-color: #800000;
+    color: white;
+}

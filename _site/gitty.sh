@@ -1,11 +1,13 @@
 #!/usr/bin/env bash
-echo Gitty 1.0
-echo Copyright 2017 | Marquis Kurt.
+echo Gitty 1.0.1
+echo Copyright 2017. Marquis Kurt.
 echo Licensed under GNU GPL v3.
 echo
 echo Beginning commit sequence...
 echo Adding files...
 git add *
+echo Files added.
+clear
 echo Enter your commit message:
 read message
 git commit -m "$message"

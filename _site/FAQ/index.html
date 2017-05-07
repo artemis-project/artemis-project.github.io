@@ -7,42 +7,48 @@
     <link rel="stylesheet" type="text/css" media="print" href="https://assets.ubuntu.com/v1/0df231d4-core-print.css">
     <link rel="stylesheet" type="text/css" media="screen" href="https://assets.ubuntu.com/v1/126653c9-global-responsive.css">
     <link rel = "stylesheet" href = "/enjade.css">
+    <link rel = "icon" href = "/assets/images/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <meta name="author" content="Enjade Project Team">
-    <style>
-        header.banner .nav-primary.nav-right .logo-ubuntu {
-            background-image: url(/enjade-logo.svg);
-        }
-    </style>
 </head>
 
 <body>
     <header class="banner global enterprise" role="banner">
-        <nav role="navigation" id = "nav" class="nav-primary nav-right">
+      <a class="nav-toggle" id="menu">menu</a>
+        <nav role="navigation" id = "nav" class="nav-primary ">
             <div class="logo">
-                <a class="logo-ubuntu" href="/">
-                    <img width="106" height="25" src="/enjade-logo.svg" alt="Enjade" />
-                    <span>desktop</span>
+                <a class="logo-enjade" href="/">
+                    <img width="106" height="25" src="/assets/images/enjade-logo.svg" alt="Enjade" />
                 </a>
             </div>
             <ul>
                 <li class="accessibility-aid"><a accesskey="s" href="#main-content">Jump to content</a></li>
-                <li><a class="first" href="#">About</a></li>
-                <li><a href="#">Desktop</a></li>
+                <li><a class="first" href="/about">About</a></li>
+                <li><a href="/features">Features</a></li>
                 <li><a href="http://www.github.com/enjade-project">GitHub</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="/FAQ">FAQ</a></li>
+                <li><a href="/dl">Download</a></li>
             </ul>
         </nav>
     </header>
-    
+
     <div class="wrapper">
         <div id="main-content" class="inner-wrapper">
-            
-            <div class="row">
-    <h1>Frequently Asked Questions (FAQ)</h1>
-    </p>
-    <p><p>Over the course of the <strong>Enjade Desktop</strong> project, we’ve received an assortment of questions. Hopefully, this page will cover a majority of the common questions.</p>
+
+            <nav role="navigation" class="nav-secondary clearfix">
+    <ul class="breadcrumb">
+        <li>About &nbsp;&rsaquo;</li>
+    </ul>
+    <ul class="second-level">
+        <li><a href="/about/">Overview</a></li>        <li><a href="/pure/">Pure</a></li>
+        <li class = "active"><a href="/FAQ/">FAQ</a></li>
+        <li><a href="/contact/">Contact</a></li>
+    </ul>
+</nav>
+<div class="row">
+    <div class = "eight-col">
+        <h1>Frequently Asked Questions (FAQ)</h1>
+        </p>
+        <p><p>Over the course of the <strong>Enjade Desktop</strong> project, we’ve received an assortment of questions. Hopefully, this page will cover a majority of the common questions.</p>
 
 <h2 id="what-is-enjade">What is Enjade?</h2>
 <p>Enjade is a desktop environment aimed at continuing the work of Unity 7, Canonical’s own desktop environment before it was shut down on April 5, 2017.</p>
@@ -80,17 +86,13 @@
   <p>“Yes, I do run Acquainted Safari and am a part of Enjade, but these are separate entities; I never intended for these entities to collide with each other as a single entity, but as a connection between two communities.” - Marquis Kurt</p>
 </blockquote>
 
-<h2 id="where-did-the-name-enjade-come-from-and-how-do-you-pronounce-it">Where did the name Enjade come from, and how do you pronounce it?</h2>
-<p>Enjade is pronounced like you would expect: <strong>enh - jayd</strong>. This isn’t to be confused with a word of similar spelling.</p>
-
-<p>“Enjade” was inspired by a potential partner and community member of Acquainted Safari: <a href="http://www.instagram.com/jaenoelani">Jaeden Gurrero</a>. Essentially, the syllables in her name swapped, hence the pronunciation of the name. If you want to look at this symbolically, she could easily represent Caroline from the game <em>Portal 2</em>, the successor to Cave Johnson, much like how Enjade is the successor to Unity 7.</p>
-
 <h2 id="free-hugs">Free hugs?</h2>
 <p>We could try, but we don’t know how to make a plasmoid for that. :/</p>
 </p>
+    </div>
 </div>
 
-            
+
         </div>
     </div>
     <footer class="global clearfix">
@@ -101,8 +103,52 @@
                 <li><a href="http://t.me/enjadeproject">Telegram group</a></li>
             </ul>
         </div>
-        
         <span class="accessibility-aid"><a href="#">Go to the top of the page</a></span>
     </footer>
+<script>
+
+if (!core) { var core = {}; }
+
+core.mobileNav = function () {
+    var header = document.querySelector('header.banner');
+    var navPrimary = document.querySelector('.nav-primary');
+    var navSecondary = document.querySelector('.nav-secondary');
+    var breadcrumbLinks = document.querySelector('.breadcrumb li a');
+
+    if (navPrimary) {
+        // Add the navigation toggle
+        navToggle = document.createElement('a');
+        navToggle.classList.add('nav-toggle');
+        navToggle.id = 'menu';
+        navToggle.innerHTML = 'menu';
+        header.insertBefore(navToggle, navPrimary);
+
+        // Adds a click listener to the navigation toggle
+        navToggle.addEventListener('click', function(e) {
+            e.preventDefault();
+            // Toggle the navigations display state
+            navToggle.classList.toggle('active');
+            navPrimary.classList.toggle('active');
+            document.querySelector('#nav ul').classList.toggle('active');
+        });
+    }
+
+    if (breadcrumbLinks) {
+        // Add chevron to first link
+        var firstBreadcrumb = document.querySelector('.breadcrumb > li a');
+        var breadcrumbChevron = document.createElement('a');
+        breadcrumbChevron.classList.add('after');
+        firstBreadcrumb.insertBefore(breadcrumbChevron, firstBreadcrumb.lastChild);
+        // Add click listener to the chevron
+        breadcrumbChevron.addEventListener('click', function(e) {
+            e.preventDefault();
+            // Toggle the secondary navigations display state
+            navSecondary.classList.toggle('open');
+        });
+    }
+};
+
+core.mobileNav();
+</script>
 </body>
 </html>
