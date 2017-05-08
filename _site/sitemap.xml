@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://localhost:4000/insights/design/a-new-site/</loc>
+<lastmod>2017-05-07T00:00:00-10:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/FAQ/</loc>
 </url>
 <url>
@@ -10,6 +14,12 @@
 <loc>http://localhost:4000/contact/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/insights/core/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/insights/design/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/dl/</loc>
 </url>
 <url>
@@ -17,6 +27,12 @@
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/insights/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/insights/pure/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/pure/</loc>

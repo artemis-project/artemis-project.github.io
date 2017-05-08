@@ -2,12 +2,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
-    <title>Enjade Pure - Enjade Project</title>
+    <title>{{ page.title }} - Enjade Insights</title>
     <link rel="stylesheet" type="text/css" media="screen" href="https://assets.ubuntu.com/v1/988cd866-ubuntu-styles.css">
     <link rel="stylesheet" type="text/css" media="print" href="https://assets.ubuntu.com/v1/0df231d4-core-print.css">
     <link rel="stylesheet" type="text/css" media="screen" href="https://assets.ubuntu.com/v1/126653c9-global-responsive.css">
-    <link rel = "stylesheet" href = "/enjade.css">
-    <link rel = "icon" href = "/assets/images/favicon.ico">
+    <link rel = "stylesheet" href = "{{ site.baseurl }}/enjade.css">
+    <link rel = "icon" href = "{{ site.baseurl }}/assets/images/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <meta name="author" content="Enjade Project Team">
 </head>
@@ -17,16 +17,19 @@
       <a class="nav-toggle" id="menu">menu</a>
         <nav role="navigation" id = "nav" class="nav-primary ">
             <div class="logo">
-                <a class="logo-enjade" href="/">
-                    <img width="106" height="25" src="/assets/images/enjade-logo.svg" alt="Enjade" />
+                <a class="logo-enjade" href="{{ site.baseurl }}/index">
+                    <img width="106" height="25" src="{{ site.baseurl }}/assets/images/enjade-logo.svg" alt="Enjade" />
+                    <span>
+                        insights&nbsp;&nbsp;&nbsp;&nbsp;
+                    </span>
                 </a>
             </div>
             <ul>
                 <li class="accessibility-aid"><a accesskey="s" href="#main-content">Jump to content</a></li>
-                <li><a class="first" href="/about">About</a></li>
-                <li><a href="/features">Features</a></li>
-                <li><a href="/insights">Insights</a></li>
-                <li><a href="/dl">Download</a></li>
+                <li><a class="first" href="{{ site.baseurl }}/insights">Home</a></li>
+                <li><a href="{{ site.baseurl }}/insights/core">Core</a></li>
+                <li><a href="{{ site.baseurl }}/insights/pure">Pure</a></li>
+                <li><a href="{{ site.baseurl }}/insights/design">Design</a></li>
             </ul>
         </nav>
     </header>
@@ -34,40 +37,7 @@
     <div class="wrapper">
         <div id="main-content" class="inner-wrapper">
 
-            <nav role="navigation" class="nav-secondary clearfix">
-    <ul class="breadcrumb">
-        <li>About &nbsp;&rsaquo;</li>
-    </ul>
-    <ul class="second-level">
-        <li><a href="/about/">Overview</a></li>
-        <li class  = "active"><a href="/pure/">Pure</a></li>
-        <li><a href="/FAQ/">FAQ</a></li>
-        <li><a href="/contact/">Contact</a></li>
-    </ul>
-</nav>
-<article class="page">
-    <div class="row row-construction">
-  <h3>Watch your step</h3>
-  <p>
-    This web page is currently under construction. You can help by going to GitHub and making a pull request to edit this page.
-  </p>
-  <p>
-    <a href = "https://www.github.com/enjade-project/enjade-project.github.io/">Go to GitHub &rsaquo;</a>
-  </p>
-</div>
-<div class="row row-image-centered">
- <div class="six-col">
-  <h1>Unity 7, resurrected</h1>
-  <p>Enjade Pure is a true, direct fork of the Unity 7 desktop environment. Bringing the latest innovations from Enjade Core to the well-trusted and venerable Unity 7 desktop, Enjade Pure aims to be a replacement to the Unity 7 desktop for those who prefer X11 and Compiz as their workflow.</p>
-  <p><a class="link-cta-ubuntu" href = "https://www.github.com/enjade-project/enjade-pure">View on GitHub</a></p>
- </div>
- <span>
-  <img src="/assets/images/ubuntu-14.04-laptop-front.png" alt="Ubuntu laptop (14.04), with Unity 7" width = "100%"/>
- </span>
-</div>
-
-</article>
-
+            {{ content }}
 
         </div>
     </div>
