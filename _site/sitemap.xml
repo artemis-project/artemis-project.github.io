@@ -29,6 +29,9 @@
 <loc>http://localhost:4000/insights/core/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/core/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/insights/design/</loc>
 </url>
 <url>
