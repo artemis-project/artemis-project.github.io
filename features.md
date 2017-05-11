@@ -54,13 +54,18 @@ This feature roadmap provides an extensive view of what's to come next in the En
 ## Fall 2017
 ### October
 #### Core
+* Logo submissions for Enjade Enjade
 
 #### Pure
+* Logo submissions for Enjade Enjade
 
 ### November
 #### Core
+* Logo voted on and finalized
 
 #### Pure
+* Logo voted on and finalized
+
 ## Winter 2017
 ### December
 #### Core
