@@ -2,7 +2,7 @@
 layout: post
 title: New site, changed views, and a brighter future
 author: Marquis Kurt
-categories: design pure core
+categories: design pure core insight
 permalink: /insights/design/a-new-site/
 excerpt_separator: <!--more-->
 ---

@@ -4,25 +4,34 @@ title: Home
 ---
 <div class="row row-image-centered">
  <div class="six-col">
-   <h2>The desktop of Unity, with the framework of Plasma</h2>
+   <h2>The future of Unity is coming</h2>
        <p>The Enjade desktop environment is a community project to recreate and continue the Unity desktop environment. From the versatile Dash down to the global menu, Enjade promises to provide the familiar experience Ubuntu users love while adding new features to keep it up with the latest trends.</p>
        <p><a class="link-cta-ubuntu" href = "{{ site.baseurl }}/about">Learn more</a></p>
  </div>
  <span>
-  <img src = "{{ site.baseurl }}/assets/images/enjade-concept-kde-ubuntu.png" width = "100%" alt = "Enjade KDE concept"/>
+  <img src = "{{ site.baseurl }}/assets/images/unity-applet-desktop.png" width = "50%" alt = "Unity desktop icon concept"/>
  </span>
 </div>
-<div class="row">
-    <div class="eight-col">
+<div class="row vertical-divider">
+    <div class="six-col">
         <h3>Design an icon!</h3>
         <p>Do you have a good icon design for the Enjade project? Learn how to create your design and submit it for the logo contest!</p>
         <p><a class="link-cta-ubuntu" href = "{{ site.baseurl }}/insights/design/design-a-logo/">Read the guidelines</a>&nbsp;&nbsp;<a class="link-cta-ubuntu" href = "{{ site.baseurl }}/design-a-logo/">See the submissions</a></p>
     </div>
-</div>
-<div class="row row-enterprise">
-    <div class="eight-col">
-        <h3>Get in touch</h3>
-        <p>Do you have an idea you want to share or a question you want answered? Get in touch with the Enjade community through email or through our Telegram group.</p>
-        <p><a class="link-cta-canonical" href = "{{ site.baseurl }}/contact/">Contact us</a></p>
+    <div class="six-col last-col">
+            <h3>Get in touch</h3>
+            <p>Do you have an idea you want to share or a question you want answered? Get in touch with the Enjade community through email or through our Telegram group.</p>
+            <p><a class="link-cta-canonical" href = "{{ site.baseurl }}/contact/">Contact us</a></p>
     </div>
+</div>
+<div class="row vertical-divider">
+    <h2>Latest insights</h2>
+    {% for post in site.categories['insight'] limit:3 %}
+    <div class="four-col">
+        <h4>{{ post.title }}</h4>
+        <h6>Written by: {{ post.author }}, {{ post.date | date: "%-d %b %y" }}</h6>
+        <p>{{ post.excerpt }}</p>
+        <p><a href = "{{ site.baseurl }}{{ post.url }}">Read more &rsaquo;</a></p>
+    </div>
+    {% endfor %}
 </div>

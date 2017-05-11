@@ -2,7 +2,7 @@
 layout: post
 title: Enjade's looking for a logo!
 author: Marquis Kurt
-categories: design
+categories: design insight
 permalink: /insights/design/design-a-logo/
 excerpt_separator: <!--more-->
 ---

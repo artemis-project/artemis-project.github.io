@@ -3,28 +3,15 @@ title: Frequently Asked Questions (FAQ)
 layout: info-faq
 ---
 
-Over the course of the **Enjade Desktop** project, we've received an assortment of questions. Hopefully, this page will cover a majority of the common questions.
-
-## What is Enjade?
-Enjade is a desktop environment aimed at continuing the work of Unity 7, Canonical's own desktop environment before it was shut down on April 5, 2017.
-
-## Is Enjade a Unity 7 fork?
-No, Enjade isn't a Unity 7 fork, and there's good reason for it. The Unity desktop, in actuality, resides as a plugin for the compositing manager Compiz. Compiz hasn't seen updates, though projects like Compiz Reloaded and others have emerged. Sadly, it seems as if these technologies will not advance in the modern space; so, Enjade is made from scratch, with _Plasma_ as its base.
-
 ## Is Enjade supported by/worked on with Canonical?
 Enjade remains a separate entity from Canonical, and there is no relation or affiliation with Canonical at the moment.
 
-## Why does Enjade rely on KDE Plasma?
-While creating a new desktop environment with GNOME as a backend would be ideal, it doesn't seem practical in today's share of desktop environments. MATE, Cinnamon, Budgie, etc., are all GNOME-based, which means that a plethora of GNOME-based desktops are readily available, in addition to the stock GNOME desktop that Ubuntu now ships with. However, not many Plasma-based environments exist; as such, Enjade works off of Plasma.
-
-In addition to focusing on Plasma, Plasma's own widgets, plasmoids, themes, etc., include particular assets that could be vital to making Enjade a reality. The release of Plasma 5.9 saw the introduction of global menus in KDE, allowing menus to be centralized to a single panel. The customizability can be seen as **superior** to GNOME, making it a great choice for use as a desktop.
-
-## Is Enjade a Plasma _fork_, or a _Look&Feel package_?
+## Is Enjade Core a Plasma _fork_, or a _Look&Feel package_?
 Enjade is available as a _Look&Feel package_, giving existing Plasma users an easy transition to the Enjade desktop. However, we do have plans to make an installable package via Snappy and/or Flatpak that bundles Plasma and Enjade together, with Enjade set as the default Look&Feel package for Plasma.
 
 In addition to the Look&Feel package, some of the plasmoids, like the **Enjade Launcher (Chrysalis)**, are forks of some of the default KDE plasmoids. This brings overall familiarity while adding extensibility and customizability to these plasmoids. They are automatically bundled with the Look&Feel package, making installation easy.
 
-## Will Enjade replicate Unity 7, or will it do more?
+## Will Enjade Core replicate Unity 7, or will it do more?
 As of right now, the primary goal is to replicate the Unity 7 interface into Plasma almost identically. With the exception to theming, most of Enjade will look and feel similar to the latest Unity 7 package, Unity 7.4. This is to lay the foundation for what Enjade will build upon, so Enjade's development _doesn't end_ when the interface replication is complete.
 
 ## What will Enjade add next?
