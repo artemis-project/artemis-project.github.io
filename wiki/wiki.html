@@ -1,0 +1,20 @@
+---
+layout: default
+title: Articles
+permalink: /wiki/
+---
+<div class="row">
+ <h1>Articles</h1>
+ <p>
+    This page contains all of the articles found on the Enjade website. To look for blog posts, go to <a href = "{{ site.baseurl }}/insights.html">Enjade Insights</a>.
+ </p>
+</div>
+{% for post in site.categories['article'] %}
+<div class="row">
+    <h2>{{ post.title }}</h2>
+    <p>
+    {{ post.excerpt }}
+    </p>
+    <p><a href = "{{ site.baseurl }}{{ page.url }}">Go to article &rsaquo;</a></p>
+</div>
+{% endfor %}

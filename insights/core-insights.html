@@ -1,0 +1,24 @@
+---
+layout: insights-default
+title: Core
+permalink: /insights/core/
+---
+<div class = "row">
+    <h1>Core insights</h1>
+</div>
+{% for post in site.categories['core'] %}
+<div class = "row">
+    <h2>{{ post.title }}</h2>
+    <p>
+        {{ post.excerpt }}
+    </p>
+    <p>
+        <a href = "{{ site.baseurl }}{{ post.url }}">Read more &rsaquo;</a>
+    </p>
+    <p class = "note">
+    Written by {{ post.author }} on {{ post.date | date: "%-d %B %Y" }}
+    </p>
+</div>
+{% endfor %}
+
+
