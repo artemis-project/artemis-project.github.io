@@ -1,7 +1,7 @@
 ---
 title: Frequently Asked Questions (FAQ)
 layout: info-faq
-permalink: /faq/
+permalink: /FAQ/
 ---
 
 ## Is Enjade supported by/worked on with Canonical?
