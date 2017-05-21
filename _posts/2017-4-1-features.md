@@ -4,7 +4,7 @@ title: Feature Roadmap
 categories: article
 permalink: /features/
 ---
-This feature roadmap provides an extensive view of what's to come next in the Enjade Core and Enjade Pure desktop environments. They are currently organized by season and month.
+This feature roadmap provides an extensive view of what's to come next in the {{ site.title }} Core and {{ site.title }} Pure desktop environments. They are currently organized by season and month.
 
 ## Spring 2017
 
@@ -18,10 +18,10 @@ This feature roadmap provides an extensive view of what's to come next in the En
 ### June
 #### Core
 * Porting of locally-integrated menus and HUD
-* New implementation of universal search in Enjade Launcher
+* New implementation of universal search in {{ site.title }} Launcher
 
 #### Pure
-* Final "rebranding" builds in Enjade Pure
+* Final "rebranding" builds in {{ site.title }} Pure
 
 ## Summer 2017
 
@@ -33,15 +33,15 @@ This feature roadmap provides an extensive view of what's to come next in the En
 
 #### Pure
 * Introduce universal search in Dash
-* Enjade Pure 0.1 stable release
+* {{ site.title }} Pure 0.1 stable release
 
 ### August
 #### Core
-* Introduce new "Torres" theme for Enjade
+* Introduce new "Torres" theme for {{ site.title }}
 
 
 #### Pure
-* Introduce new "Torres" theme for Enjade
+* Introduce new "Torres" theme for {{ site.title }}
 * Begin merging Unity Tweak Tool settings with Appearance panels
 * Create alpha testing builds for 0.2
 
@@ -56,10 +56,10 @@ This feature roadmap provides an extensive view of what's to come next in the En
 ## Fall 2017
 ### October
 #### Core
-* Logo submissions for Enjade Enjade
+* Logo submissions for {{ site.title }} {{ site.title }}
 
 #### Pure
-* Logo submissions for Enjade Enjade
+* Logo submissions for {{ site.title }} {{ site.title }}
 
 ### November
 #### Core
@@ -97,8 +97,8 @@ This feature roadmap provides an extensive view of what's to come next in the En
 ### April
 
 #### Core
-* Enjade Core 0.1 stable release
-    * Ubuntu 18.04 LTS with Enjade Core 1.0 shipped
+* {{ site.title }} Core 0.1 stable release
+    * Ubuntu 18.04 LTS with {{ site.title }} Core 1.0 shipped
 
 #### Pure
 
@@ -118,7 +118,7 @@ This feature roadmap provides an extensive view of what's to come next in the En
 #### Core
 
 #### Pure
-* Enjade Pure 0.2 stable release
+* {{ site.title }} Pure 0.2 stable release
 
 
 ### August
@@ -137,11 +137,11 @@ This feature roadmap provides an extensive view of what's to come next in the En
 #### Core
 
 #### Pure
-* Ubuntu 18.10 with Enjade Pure 0.2 shipped
+* Ubuntu 18.10 with {{ site.title }} Pure 0.2 shipped
 
 ---
 
 ## Contribute
 If you want something to be added to this roadmap, make a pull request on GitHub.
 
-[Go to GitHub &rsaquo;](https://www.github.com/enjade-project/enjade)
+[Go to GitHub &rsaquo;](https://www.github.com/{{ site.title }}-project/{{ site.title }})

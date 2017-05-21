@@ -3,10 +3,7 @@
 <head>
 <meta charset="UTF-8">
     <title>Download - Enjade Project</title>
-    <link rel="stylesheet" type="text/css" media="screen" href="https://assets.ubuntu.com/v1/988cd866-ubuntu-styles.css">
-    <link rel="stylesheet" type="text/css" media="print" href="https://assets.ubuntu.com/v1/0df231d4-core-print.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="https://assets.ubuntu.com/v1/126653c9-global-responsive.css">
-    <link rel = "stylesheet" href = "/enjade.css" />
+    <link rel="stylesheet" href="https://assets.ubuntu.com/v1/vanilla-framework-version-1.2.2.min.css" />
     <link href="/assets/images/x-unity-applet-desktop.png" rel="apple-touch-icon" />
     <link href="/assets/images/x-unity-applet-desktop.png" rel="icon" />
     <link rel="shortcut icon" type="image/x-icon" href="/assets/images/x-unity-applet-desktop.png" />
@@ -15,142 +12,67 @@
 </head>
 
 <body>
-    <header class="banner global enterprise" role="banner">
-      <a class="nav-toggle" id="menu">menu</a>
-        <nav role="navigation" id = "nav" class="nav-primary ">
-            <div class="logo">
-                <a class="logo-enjade" href="/">
-                    <img width="106" height="25" src="/assets/images/enjade-logo.svg" alt="Enjade" />
-                </a>
-            </div>
-            <ul>
-                <li class="accessibility-aid"><a accesskey="s" href="#main-content">Jump to content</a></li>
-                <li><a class="first" href="/about">About</a></li>
-                <li><a href="/wiki">Articles</a></li>
-                <li><a href="/dl">Download</a></li>
-                <li><a href="/insights">Insights</a></li>
-                <li><a href="/design-a-logo">Logos</a></li>
-                <li><a href="/features">Roadmap</a></li>
-            </ul>
-        </nav>
-    </header>
+   <header id="navigation" class="p-navigation" role="banner">
+  <div class="row">
+    <div class="p-navigation__logo">
+      <a class="p-navigation__link" href="/">
+        Enjade
+      </a>
+    </div>
+    <a href="#navigation" class="p-navigation__toggle--open" title="menu">Menu</a>
+    <a href="#navigation-closed" class="p-navigation__toggle--close" title="close menu">Menu</a>
+    <nav class="p-navigation__nav">
+      <span class="u-off-screen">
+        <a href="#main-content">Jump to main content</a>
+      </span>
+      <ul class="p-navigation__links">
+        <li class="p-navigation__link"><a href="/about/">About</a></li>
+        <li class="p-navigation__link"><a href="/dl/">Download</a></li>
+        <li class="p-navigation__link"><a href="/wiki/">Wiki</a></li>
+<li class="p-navigation__link"><a href="/insights/">Insights</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
     <div class="wrapper">
         <div id="main-content" class="inner-wrapper">
-
-            <article class="page">
-    <div class="row row-airball">
-    <h3>Sorry to disappoint</h3>
-    <p>
-    There are currently no downloads for Enjade available at the moment. Alternatively, you can check the GitHub repositories for progress.
-    </p>
-    <p>
-    <a href = "https://www.github.com/enjade-project/enjade-project.github.io/" style = "color: white;">Go to GitHub &rsaquo;</a>
-    </p>
-</div>
-<div class="row row-image-centered">
- <div class="six-col">
-  <h1>Ready to download?</h1>
-  <p>If you're ready to download the Enjade desktop, you can take a look here to get your hands on this beautiful, modern desktop.</p>
+	<br />            
+	<div class="row">
+ <div class="col-12">
+	<span><center>  <img src = "/assets/images/unity-applet-desktop.png" width = "40%" alt = "Unity desktop icon concept"/></center></span>
+<br />
+<h2>BLocked.</h2>
+<p>
+	Sadly, we don't have any downloads available at the moment. You can check again later or contact the team with the links in the footer for more information.
+</p>
  </div>
- <span>
-  <img src="/assets/images/ubuntu-14.04-laptop-front.png" alt="Ubuntu laptop (14.04), with Unity 7" width = "100%"/>
- </span>
 </div>
-<div class="row vertical-divider">
-    <div class="eight-col">
-        <h2>Enjade Core</h2>
-        <p>Enjade Core is the traditional Plasma-based desktop that continues Unity 7 through means of Plasmoids. Core provides support for Wayland and often get new features before Enjade Pure.</p>
-        <p class = "note">
-            The Ubuntu distro with Enjade Core uses the long-term support releases (LTS). <a href = "https://wiki.ubuntu.com/LTS">Learn more &rsaquo;</a>
-        </p>
-    </div>
-    <div class = "four-col last-col">
-    <p>
-        <a class = "link-cta-ubuntu" style = "width: 100%;" href = "#">Desktop Environment</a>
-    </p>
-    <p>
-    <a class = "link-cta-ubuntu" style = "width: 100%;" href = "#">Ubuntu with Enjade Core</a>
-    </p>
-    </div>
-</div>
-<div class="row vertical-divider">
-    <div class="eight-col">
-        <h2>Enjade Pure</h2>
-        <p>Enjade Pure is the Unity 7 desktop fork that provides the features of Enjade Core. Pure provides support for X11 and Compiz, usually getting features after Core implementation.</p>
-        <p class = "note">
-        The Ubuntu distro with Enjade Pure uses the regular, time-based releases. <a href = "https://wiki.ubuntu.com/TimeBasedReleases">Learn more &rsaquo;</a>
-        </p>
-    </div>
-    <div class = "four-col last-col">
-        <p>
-        <a class = "link-cta-ubuntu" style = "width: 100%;" href = "#">Desktop Environment</a>
-        </p>
-        <p>
-        <a class = "link-cta-ubuntu" style = "width: 100%;" href = "#">Ubuntu with Enjade Pure</a>
-        </p>
-    </div>
-</div>
-
-</article>
-
 
         </div>
     </div>
-    <footer class="global clearfix">
-        <div class="legal clearfix">
-            <p class="twelve-col">&copy; 2017 Enjade Project. Licensed under GNU GPL v3.</p>
-            <ul class="inline clear">
-                <li><a href="mailto:ubunturox104@gmail.com">Email maintainer</a></li>
-                <li><a href="http://t.me/enjadeproject">Telegram group</a></li>
-            </ul>
-        </div>
-        <span class="accessibility-aid"><a href="#">Go to the top of the page</a></span>
-    </footer>
-<script>
-
-if (!core) { var core = {}; }
-
-core.mobileNav = function () {
-    var header = document.querySelector('header.banner');
-    var navPrimary = document.querySelector('.nav-primary');
-    var navSecondary = document.querySelector('.nav-secondary');
-    var breadcrumbLinks = document.querySelector('.breadcrumb li a');
-
-    if (navPrimary) {
-        // Add the navigation toggle
-        navToggle = document.createElement('a');
-        navToggle.classList.add('nav-toggle');
-        navToggle.id = 'menu';
-        navToggle.innerHTML = 'menu';
-        header.insertBefore(navToggle, navPrimary);
-
-        // Adds a click listener to the navigation toggle
-        navToggle.addEventListener('click', function(e) {
-            e.preventDefault();
-            // Toggle the navigations display state
-            navToggle.classList.toggle('active');
-            navPrimary.classList.toggle('active');
-            document.querySelector('#nav ul').classList.toggle('active');
-        });
-    }
-
-    if (breadcrumbLinks) {
-        // Add chevron to first link
-        var firstBreadcrumb = document.querySelector('.breadcrumb > li a');
-        var breadcrumbChevron = document.createElement('a');
-        breadcrumbChevron.classList.add('after');
-        firstBreadcrumb.insertBefore(breadcrumbChevron, firstBreadcrumb.lastChild);
-        // Add click listener to the chevron
-        breadcrumbChevron.addEventListener('click', function(e) {
-            e.preventDefault();
-            // Toggle the secondary navigations display state
-            navSecondary.classList.toggle('open');
-        });
-    }
-};
-
-core.mobileNav();
-</script>
+<footer class="p-footer" role="contentinfo">
+<div class = "row">
+<div class = "col-12">  
+&copy; 2017 | Enjade Project team. Licensed under GNU GPL v3.
+  <nav role="navigation">
+    <ul class="p-footer__links">
+      <li class="p-footer__item">
+        <a class="p-footer__link" href="http://www.github.com/enjade-project/">GitHub</a>
+      </li>
+      <li class="p-footer__item">
+        <a class="p-footer__link" href="http://t.me/enjadeproject">Telegram</a>
+      </li>
+      <li class="p-footer__item">
+        <a class="p-footer__link" href="mailto:ubunturox104@gmail.com">Email</a>
+      </li>
+    </ul>
+    <span class="u-off-screen">
+      <a href="#">Go to the top of the page</a>
+    </span>
+</div>
+</div>
+  </nav>
+</footer>
 </body>
 </html>

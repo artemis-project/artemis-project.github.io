@@ -3,10 +3,7 @@
 <head>
 <meta charset="UTF-8">
     <title>Home - Enjade Project</title>
-    <link rel="stylesheet" type="text/css" media="screen" href="https://assets.ubuntu.com/v1/988cd866-ubuntu-styles.css">
-    <link rel="stylesheet" type="text/css" media="print" href="https://assets.ubuntu.com/v1/0df231d4-core-print.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="https://assets.ubuntu.com/v1/126653c9-global-responsive.css">
-    <link rel = "stylesheet" href = "/enjade.css" />
+    <link rel="stylesheet" href="https://assets.ubuntu.com/v1/vanilla-framework-version-1.2.2.min.css" />
     <link href="/assets/images/x-unity-applet-desktop.png" rel="apple-touch-icon" />
     <link href="/assets/images/x-unity-applet-desktop.png" rel="icon" />
     <link rel="shortcut icon" type="image/x-icon" href="/assets/images/x-unity-applet-desktop.png" />
@@ -15,55 +12,56 @@
 </head>
 
 <body>
-    <header class="banner global enterprise" role="banner">
-      <a class="nav-toggle" id="menu">menu</a>
-        <nav role="navigation" id = "nav" class="nav-primary ">
-            <div class="logo">
-                <a class="logo-enjade" href="/">
-                    <img width="106" height="25" src="/assets/images/enjade-logo.svg" alt="Enjade" />
-                </a>
-            </div>
-            <ul>
-                <li class="accessibility-aid"><a accesskey="s" href="#main-content">Jump to content</a></li>
-                <li><a class="first" href="/about">About</a></li>
-                <li><a href="/wiki">Articles</a></li>
-                <li><a href="/dl">Download</a></li>
-                <li><a href="/insights">Insights</a></li>
-                <li><a href="/design-a-logo">Logos</a></li>
-                <li><a href="/features">Roadmap</a></li>
-            </ul>
-        </nav>
-    </header>
+   <header id="navigation" class="p-navigation" role="banner">
+  <div class="row">
+    <div class="p-navigation__logo">
+      <a class="p-navigation__link" href="/">
+        Enjade
+      </a>
+    </div>
+    <a href="#navigation" class="p-navigation__toggle--open" title="menu">Menu</a>
+    <a href="#navigation-closed" class="p-navigation__toggle--close" title="close menu">Menu</a>
+    <nav class="p-navigation__nav">
+      <span class="u-off-screen">
+        <a href="#main-content">Jump to main content</a>
+      </span>
+      <ul class="p-navigation__links">
+        <li class="p-navigation__link"><a href="/about/">About</a></li>
+        <li class="p-navigation__link"><a href="/dl/">Download</a></li>
+        <li class="p-navigation__link"><a href="/wiki/">Wiki</a></li>
+<li class="p-navigation__link"><a href="/insights/">Insights</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
     <div class="wrapper">
         <div id="main-content" class="inner-wrapper">
-
-            <div class="row row-image-centered">
- <div class="six-col">
+	<br />            
+	<div class="row">
+ <div class="col-6">
    <h2>The future of Unity is coming</h2>
        <p>The Enjade Project is a community project to recreate and continue the Unity desktop environment. From the versatile Dash down to the global menu, Enjade promises to provide the familiar experience Ubuntu users love while adding new features to keep it up with the latest trends.</p>
-       <p><a class="link-cta-ubuntu" href = "/about">Learn more</a></p>
+       <p><a class="p-button--brand" href = "/about">Learn more</a></p>
  </div>
- <span>
+ <div class = "col-6"><center>
   <img src = "/assets/images/unity-applet-desktop.png" width = "50%" alt = "Unity desktop icon concept"/>
- </span>
+ </center></div>
 </div>
-<div class="row vertical-divider">
-    <div class="six-col">
-        <h3>Design an icon!</h3>
-        <p>Do you have a good icon design for the Enjade project? Learn how to create your design and submit it for the logo contest!</p>
-        <p><a class="link-cta-ubuntu" href = "/insights/design/design-a-logo/">Read the guidelines</a>&nbsp;&nbsp;<a class="link-cta-ubuntu" href = "/design-a-logo/">See the submissions</a></p>
-    </div>
-    <div class="six-col last-col">
-            <h3>Get in touch</h3>
-            <p>Do you have an idea you want to share or a question you want answered? Get in touch with the Enjade community through email or through our Telegram group.</p>
-            <p><a class="link-cta-canonical" href = "/contact/">Contact us</a></p>
-    </div>
-</div>
-<div class="row vertical-divider">
+<hr>
+<div class="row">
     <h2>Latest insights</h2>
     
-    <div class="four-col">
+    <div class="col-3">
+        <h4>We need your help with renaming Enjade</h4>
+        <h6>Written by: Marquis Kurt, 21 May 17</h6>
+        <p><p>When I first started the Enjade project, I wanted to give a name that best represented the clean, friendly nature of the Unity desktop while presenting something completely new. Sadly, things have changed and not everything is what it seems.</p>
+
+</p>
+        <p><a href = "/insights/design/help-rename-enjade/">Read more &rsaquo;</a></p>
+    </div>
+    
+    <div class="col-3">
         <h4>Enjade's looking for a logo!</h4>
         <h6>Written by: Marquis Kurt, 11 May 17</h6>
         <p><p>The Enjade team is looking for a logo to represent the future of the Unity desktop, and we need your help! We want <em>you</em> to design the next logo for Enjade!</p>
@@ -72,7 +70,7 @@
         <p><a href = "/insights/design/design-a-logo/">Read more &rsaquo;</a></p>
     </div>
     
-    <div class="four-col">
+    <div class="col-3">
         <h4>New site, changed views, and a brighter future</h4>
         <h6>Written by: Marquis Kurt, 7 May 17</h6>
         <p><p>When I first started this project back in April, I had no clue as to how the entire project would play out. I thought that I would be by myself on it, having to create and maintain an entire environment with little to no help. After all, I do see comments regularly that show that users’ disliking of the Unity desktop project. To my surprise, I was wrong; currently, there are ~30 members in the Telegram group for the Enjade Project, some base ideas for how the entire project will roll out, and an article on OMG! Ubuntu featuring the project.</p>
@@ -83,63 +81,30 @@
     
 </div>
 
-
         </div>
     </div>
-    <footer class="global clearfix">
-        <div class="legal clearfix">
-            <p class="twelve-col">&copy; 2017 Enjade Project. Licensed under GNU GPL v3.</p>
-            <ul class="inline clear">
-                <li><a href="mailto:ubunturox104@gmail.com">Email maintainer</a></li>
-                <li><a href="http://t.me/enjadeproject">Telegram group</a></li>
-            </ul>
-        </div>
-        <span class="accessibility-aid"><a href="#">Go to the top of the page</a></span>
-    </footer>
-<script>
-
-if (!core) { var core = {}; }
-
-core.mobileNav = function () {
-    var header = document.querySelector('header.banner');
-    var navPrimary = document.querySelector('.nav-primary');
-    var navSecondary = document.querySelector('.nav-secondary');
-    var breadcrumbLinks = document.querySelector('.breadcrumb li a');
-
-    if (navPrimary) {
-        // Add the navigation toggle
-        navToggle = document.createElement('a');
-        navToggle.classList.add('nav-toggle');
-        navToggle.id = 'menu';
-        navToggle.innerHTML = 'menu';
-        header.insertBefore(navToggle, navPrimary);
-
-        // Adds a click listener to the navigation toggle
-        navToggle.addEventListener('click', function(e) {
-            e.preventDefault();
-            // Toggle the navigations display state
-            navToggle.classList.toggle('active');
-            navPrimary.classList.toggle('active');
-            document.querySelector('#nav ul').classList.toggle('active');
-        });
-    }
-
-    if (breadcrumbLinks) {
-        // Add chevron to first link
-        var firstBreadcrumb = document.querySelector('.breadcrumb > li a');
-        var breadcrumbChevron = document.createElement('a');
-        breadcrumbChevron.classList.add('after');
-        firstBreadcrumb.insertBefore(breadcrumbChevron, firstBreadcrumb.lastChild);
-        // Add click listener to the chevron
-        breadcrumbChevron.addEventListener('click', function(e) {
-            e.preventDefault();
-            // Toggle the secondary navigations display state
-            navSecondary.classList.toggle('open');
-        });
-    }
-};
-
-core.mobileNav();
-</script>
+<footer class="p-footer" role="contentinfo">
+<div class = "row">
+<div class = "col-12">  
+&copy; 2017 | Enjade Project team. Licensed under GNU GPL v3.
+  <nav role="navigation">
+    <ul class="p-footer__links">
+      <li class="p-footer__item">
+        <a class="p-footer__link" href="http://www.github.com/enjade-project/">GitHub</a>
+      </li>
+      <li class="p-footer__item">
+        <a class="p-footer__link" href="http://t.me/enjadeproject">Telegram</a>
+      </li>
+      <li class="p-footer__item">
+        <a class="p-footer__link" href="mailto:ubunturox104@gmail.com">Email</a>
+      </li>
+    </ul>
+    <span class="u-off-screen">
+      <a href="#">Go to the top of the page</a>
+    </span>
+</div>
+</div>
+  </nav>
+</footer>
 </body>
 </html>
