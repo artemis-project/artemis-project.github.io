@@ -1,0 +1,15 @@
+---
+layout: article-base
+title: Docs
+permalink: /wiki/
+---
+<div class="row">
+    <h2>Articles</h2>
+    {% for post in site.categories['article'] %}
+    <div class="col-12">
+        <h4>{{ post.title }}</h4>
+        <p>{{ post.excerpt }}</p>
+        <p><a href = "{{ site.baseurl }}{{ post.url }}">Read more &rsaquo;</a></p>
+    </div>
+    {% endfor %}
+</div>
