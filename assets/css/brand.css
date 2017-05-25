@@ -24,7 +24,7 @@ h6 {
 }
 
 .front-nav {
-background-color: rgba(51, 51, 51, 0.8);
+background-color: rgba(51, 51, 51, 0.3);
 }
 
 @media only screen and (max-width: 500px) {
