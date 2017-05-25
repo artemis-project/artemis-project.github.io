@@ -30,7 +30,7 @@ title: Home
 <div class = "container">
 	<div class = "row">
     {% for post in site.categories['insight'] limit:3 %}
-    <div class="col">
+    <div class="col col-sm-12">
         <h4>{{ post.title }}</h4>
         <h6>Written by: {{ post.author }}, {{ post.date | date: "%-d %b %y" }}</h6>
         <p>{{ post.excerpt }}</p>
