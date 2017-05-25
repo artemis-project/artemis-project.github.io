@@ -1,26 +1,40 @@
 ---
-layout: default
+layout: frontpage
 title: Home
 ---
-<div class="row">
- <div class="col-6">
-   <h2>The future of Unity is coming</h2>
-       <p>The {{ site.title }} Project is a community project to recreate and continue the Unity desktop environment. From the versatile Dash down to the global menu, {{ site.title }} promises to provide the familiar experience Ubuntu users love while adding new features to keep it up with the latest trends.</p>
-       <p><a class="p-button--brand" href = "{{ site.baseurl }}/about">Learn more</a></p>
- </div>
- <div class = "col-6"><center>
-  <img src = "{{ site.baseurl }}/assets/images/unity-applet-desktop.png" width = "50%" alt = "Unity desktop icon concept"/>
- </center></div>
+<div class="frontpage">
+  <div class = "container-fluid">
+  	<div class = "row">
+  		<div class = "col">
+  			<br />
+  			<center>
+  			<h1 class = "display-3">The future of Unity is coming.</h1>
+  			<div class = "container">
+  			<p class = "lead my-4">
+  				The {{ site.title }} Project aims to bring the best environments to continue the venerable Unity 7 desktop in the modern Linux space. With an open, friendly community and a willingness to make the Linux desktop more friendly, the Unity legacy will live on while bringing new innovations to the table.
+  			</p>
+  			<p class = "lead my-4">
+  				<a href = "{{ site.baseurl }}/about/" class = "btn btn-lg btn-primary allcaps">Learn more</a>
+  			</p>
+  			</div>
+  			</center>
+  		</div>
+  	</div>
+  </div>
 </div>
-<hr>
-<div class="row">
-    <h2>Latest insights</h2>
-    {% for post in site.categories['insight'] limit:4 %}
-    <div class="col-3">
+<br />
+<div class = "container">
+<h1>Latest insights</h1>
+<p></p>
+</div>
+<div class = "container">
+	<div class = "row">
+    {% for post in site.categories['insight'] limit:3 %}
+    <div class="col">
         <h4>{{ post.title }}</h4>
         <h6>Written by: {{ post.author }}, {{ post.date | date: "%-d %b %y" }}</h6>
         <p>{{ post.excerpt }}</p>
-        <p><a href = "{{ site.baseurl }}{{ post.url }}">Read more &rsaquo;</a></p>
+        <p><a href = "{{ site.baseurl }}{{ post.url }}" class = "allcaps">Read more &rsaquo;</a></p>
     </div>
     {% endfor %}
 </div>

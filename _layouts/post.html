@@ -3,7 +3,9 @@
 <head>
 <meta charset="UTF-8">
     <title>{{ page.title }} - {{ site.title }} Insights</title>
-    <link rel="stylesheet" href="https://assets.ubuntu.com/v1/vanilla-framework-version-1.2.2.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<link rel = "stylesheet" href = "{{ site.baseurl }}/assets/css/brand.css" />
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <link href="{{ site.baseurl }}/assets/images/x-unity-applet-desktop.png" rel="apple-touch-icon" />
     <link href="{{ site.baseurl }}/assets/images/x-unity-applet-desktop.png" rel="icon" />
     <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/assets/images/x-unity-applet-desktop.png" />
@@ -12,63 +14,59 @@
 </head>
 
 <body>
-   <header id="navigation" class="p-navigation" role="banner">
-  <div class="row">
-    <div class="p-navigation__logo">
-      <a class="p-navigation__link" href="{{ site.baseurl }}/insights/">
-        {{ site.title }} insights
-      </a>
-    </div>
-    <a href="#navigation" class="p-navigation__toggle--open" title="menu">Menu</a>
-    <a href="#navigation-closed" class="p-navigation__toggle--close" title="close menu">Menu</a>
-    <nav class="p-navigation__nav">
-      <span class="u-off-screen">
-        <a href="#main-content">Jump to main content</a>
-      </span>
-      <ul class="p-navigation__links">
-        <li class="p-navigation__link"><a href="{{ site.baseurl }}/about/">About</a></li>
-        <li class="p-navigation__link"><a href="{{ site.baseurl }}/dl/">Download</a></li>
-        <li class="p-navigation__link"><a href="{{ site.baseurl }}/wiki/">Wiki</a></li>
-<li class="p-navigation__link"><a href="{{ site.baseurl }}/insights/">Insights</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
+   <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#">
+    <img src="{{ site.baseurl }}/assets/images/x-unity-applet-desktop.png" width="28" height="28" class="d-inline-block align-top" alt="">
+    {{ site.title }} Insights
+  </a>
 
-    <div class="wrapper">
-        <div id="main-content" class="inner-wrapper">
-	<br />            
-	<div class = "row">
-	<div class = "col-8">
-	<h1>{{ page.title }}</h1>
-	<h4>{{ page.author }} | {{ page.date | date: "%B %-d, %Y" }}</h4>
-	{{ content }}
-	</div>	
-	</div>
-        </div>
-    </div>
-<footer class="p-footer" role="contentinfo">
-<div class = "row">
-<div class = "col-12">  
-&copy; 2017 | {{ site.title }} Project team. Licensed under GNU GPL v3.
-<nav role="navigation">
-    <ul class="p-footer__links">
-      <li class="p-footer__item">
-        <a class="p-footer__link" href="http://www.github.com/enjade-project/">GitHub</a>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="{{ site.baseurl }}/">Home</a>
       </li>
-      <li class="p-footer__item">
-        <a class="p-footer__link" href="http://t.me/enjadeproject">Telegram</a>
+      <li class="nav-item">
+        <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
       </li>
-      <li class="p-footer__item">
-        <a class="p-footer__link" href="mailto:ubunturox104@gmail.com">Email</a>
+      <li class="nav-item">
+        <a class="nav-link" href="{{ site.baseurl }}/insights">Insights</a>
+      </li>
+	<li class="nav-item">
+        <a class="nav-link" href="{{ site.baseurl }}/contrib">Get Involved</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="{{ site.baseurl }}/dl">Download</a>
       </li>
     </ul>
-    <span class="u-off-screen">
-      <a href="#">Go to the top of the page</a>
-    </span>
-</div>
-</div>
-  </nav>
-</footer>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+    <div class="container">
+		<div class = "row">
+			<div class = "col">
+				<br />
+				<h1>{{ page.title }}</h1>
+				<h4 class = "allcaps">Written by {{ page.author }} on {{ page.date | date: "%B %d, %Y" }}</h4>
+				<hr>
+				<p>
+					{{ content }}
+				</p>
+			</div>
+		</div>	
+	</div>
+<footer class="footer">
+      <div class="container">
+        <p class="text-muted">
+&copy; 2017 | {{ site.title }} Project team. Licensed under GNU GPL v3.
+</p>
+      </div>
+    </footer>
 </body>
 </html>

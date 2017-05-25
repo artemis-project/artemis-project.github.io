@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
+
+.navbar-inverted {
+	background-color: #212121;
+	color: white;
+}
+
+h1, h2, h3, h4, h5, h6, nav {font-family: 'Montserrat', sans-serif;}
+html, body {font-family: 'Roboto', sans-serif;}
+h6 { 
+	text-transform: uppercase;
+	color: #333;
+}
+.allcaps {
+	text-transform: uppercase;
+}
+
+.frontpage {
+	background-color: #484848;
+	color: white;
+	height: 45vh;
+	background: url("../images/frontpage.png") no-repeat fixed top;
+	background-size: cover;
+}
+
+.btn-primary {
+	background-color: #ff80ab;
+	color: black;
+	border: #c94f7c;
+	box-shadow: 0px 4px 16px #333;
+}
+
+.btn-primary:hover {
+	background-color: #c94f7c;
+	color: white;
+	border: #c94f7c;
+}
