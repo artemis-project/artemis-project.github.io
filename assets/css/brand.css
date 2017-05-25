@@ -18,7 +18,7 @@ h6 {
 .frontpage {
 	background-color: #484848;
 	color: white;
-	height: 60vh;
+	height: auto;
 	background: url("../images/frontpage.png") no-repeat fixed top;
 	background-size: cover;
 }
