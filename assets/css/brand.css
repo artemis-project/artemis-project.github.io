@@ -23,6 +23,16 @@ h6 {
 	background-size: cover;
 }
 
+@media only screen and (max-width: 500px) {
+    .frontpage {
+	background-color: #484848;
+	color: white;
+	height: auto;
+	background: url("../images/frontpage.png") no-repeat fixed top;
+	background-size: cover;
+}
+}
+
 .btn-primary {
 	background-color: #ff80ab;
 	color: black;
