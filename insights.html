@@ -5,7 +5,7 @@ permalink: /insights/
 ---
 <div class="row">
 	<div class = "col">
-    <h2>Latest insight</h2>
+    <h1>Latest insight</h1>
     <hr>
     {% for post in site.categories['insight'] limit:1 %}
     <div class="col-12">
@@ -17,55 +17,48 @@ permalink: /insights/
     {% endfor %}
 </div>
 </div>
-<br />
-<br />
+<br /> <br />
 <div class="row">
 	<div class = "col">
     <h2>Core insights</h2>
-    </div>
-   </div>
-   <hr>
-   <div class = "row">
-    {% for post in site.categories['core'] limit:2 %}
-    <div class="col">
+    <hr>
+    {% for post in site.categories['core'] %}
+    <div class="col-12">
         <h4>{{ post.title }}</h4>
         <h6>Written by: {{ post.author }}, {{ post.date | date: "%-d %b %y" }}</h6>
         <p>{{ post.excerpt }}</p>
         <p><a href = "{{ site.baseurl }}{{ post.url }}">Read more &rsaquo;</a></p>
     </div>
     {% endfor %}
-    </div>
-    <br />
+</div>
+</div>
+<br /> <br />
 <div class="row">
 	<div class = "col">
     <h2>Pure insights</h2>
-    </div>
-   </div>
-   <hr>
-   <div class = "row">
-    {% for post in site.categories['pure'] limit:2 %}
-    <div class="col">
+    <hr>
+    {% for post in site.categories['pure'] %}
+    <div class="col-12">
         <h4>{{ post.title }}</h4>
         <h6>Written by: {{ post.author }}, {{ post.date | date: "%-d %b %y" }}</h6>
         <p>{{ post.excerpt }}</p>
         <p><a href = "{{ site.baseurl }}{{ post.url }}">Read more &rsaquo;</a></p>
     </div>
     {% endfor %}
-    </div>
-    <br />
+</div>
+</div>
+<br /> <br />
 <div class="row">
 	<div class = "col">
     <h2>Design insights</h2>
-    </div>
-   </div>
-   <hr>
-   <div class = "row">
-    {% for post in site.categories['design'] limit:2 %}
-    <div class="col">
+    <hr>
+    {% for post in site.categories['design'] %}
+    <div class="col-12">
         <h4>{{ post.title }}</h4>
         <h6>Written by: {{ post.author }}, {{ post.date | date: "%-d %b %y" }}</h6>
         <p>{{ post.excerpt }}</p>
         <p><a href = "{{ site.baseurl }}{{ post.url }}">Read more &rsaquo;</a></p>
     </div>
     {% endfor %}
-    </div>
+</div>
+</div>

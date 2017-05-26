@@ -5,10 +5,10 @@ title: Home
 <div class="frontpage">
   <div class = "container-fluid">
   	<div class = "row">
-  		<div class = "col">
+  		<div class = "col-sm-6 col-12">
   			<br />
   			<center>
-  			<h1 class = "display-3">The future of Unity is coming.</h1>
+  			<h1 class = "display-3">Call me {{ site.title }}</h1>
   			<div class = "container">
   			<p class = "lead my-4">
   				The {{ site.title }} Project aims to bring the best environments to continue the venerable Unity 7 desktop in the modern Linux space. With an open, friendly community and a willingness to make the Linux desktop more friendly, the Unity legacy will live on while bringing new innovations to the table.
@@ -19,6 +19,11 @@ title: Home
   			</div>
   			</center>
   		</div>
+      <div class = "col-sm-6 col-12">
+        <center>
+          <img src = "{{ site.baseurl }}/assets/images/ubuntu-14.04-laptop-front.png" width = "100%" />
+        </center>
+      </div>
   	</div>
   </div>
 </div>
@@ -30,7 +35,7 @@ title: Home
 <div class = "container">
 	<div class = "row">
     {% for post in site.categories['insight'] limit:3 %}
-    <div class="col-sm-3 col-12">
+    <div class="col-sm-4 col-12">
         <h4>{{ post.title }}</h4>
         <h6>Written by: {{ post.author }}, {{ post.date | date: "%-d %b %y" }}</h6>
         <p>{{ post.excerpt }}</p>

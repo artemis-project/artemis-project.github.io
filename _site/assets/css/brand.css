@@ -5,9 +5,13 @@
 	color: white;
 }
 
+.zesty {
+	background: url("../images/zesty.png") no-repeat fixed center;
+}
+
 h1, h2, h3, h4, h5, h6, nav {font-family: 'Montserrat', sans-serif;}
 html, body {font-family: 'Roboto', sans-serif;}
-h6 { 
+h6 {
 	text-transform: uppercase;
 	color: #333;
 }
@@ -16,25 +20,17 @@ h6 {
 }
 
 .frontpage {
-	background-color: #484848;
+	background-color: black;
 	color: white;
 	height: auto;
-	background: url("../images/frontpage.png") no-repeat fixed top;
+	padding-top: 64px;
+	padding-bottom: 64px;
+	background: url("../images/frontpage.png") no-repeat fixed center;
 	background-size: cover;
 }
 
 .front-nav {
 background-color: #333333;
-}
-
-@media only screen and (max-width: 500px) {
-    .frontpage {
-	background-color: #484848;
-	color: white;
-	height: auto;
-	background: url("../images/frontpage.png") no-repeat fixed top;
-	background-size: cover;
-}
 }
 
 .btn-primary {
