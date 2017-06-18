@@ -24,7 +24,13 @@
 <loc>http://localhost:4000/about/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/about/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/contrib/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/about/core/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/dl/</loc>
@@ -34,6 +40,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/insights/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/about/pure/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/wiki/</loc>
