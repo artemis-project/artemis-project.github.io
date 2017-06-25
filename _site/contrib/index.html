@@ -45,9 +45,10 @@
         <a class="nav-link disabled" href="/dl">Download</a>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="text" placeholder="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    <form method="get" action="http://www.bing.com/search?" class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" name = "q" placeholder="Search">
+          <input type="hidden" name="q1" value="site:enjade-project.github.io" />
+      <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
     </form>
   </div>
 </nav>
@@ -70,7 +71,41 @@
   </div>
 <br/>
   <div class = "container">
-  	
+    <div class = "row">
+        <div class = "col-12 col-sm-12">
+            <center><h1 class = "allcaps">Want to chat a bit?</h1>
+            <hr>
+            <p>
+            The Artemis community communicates through multiple open platforms. Connected with IRC, you won't miss a beat on what's coming next. Take your pick.
+            </p>
+            <br></center>
+        </div>
+    </div>
+    
+    <div class = "row">
+        <div class = "col-12 col-sm-4">
+            <center><img src = "/assets/images/telegram.png" width = "55%" /></center>
+            <br>
+            <center><a href = "http://t.me/enjadeproject" class = "btn btn-lg btn-primary allcaps">Telegram</a></center>
+        </div>
+        <div class = "col-12 col-sm-4">
+            <center><img src = "/assets/images/discord.png" width = "55%" /></center>
+            <br>
+                        <center><a href = "https://discord.gg/wuSpUUr" class = "btn btn-lg btn-primary allcaps">Discord</a></center>
+        </div>
+        <div class = "col-12 col-sm-4">
+            <center><img src = "/assets/images/riot.png" width = "55%" /></center>
+            <br>
+            <center>
+                <p class = "text-muted">
+                Currently, there is no support for joining a Matrix group via a URL. The address for the group is <b>#artemis-project:matrix.org</b>
+                </p>
+            </center>
+    </div>
+    <br />
+    <hr>
+    <br />
+    
     <div class = "row">
         <div class = "col-12 col-sm-4">
             <center><img src = "/assets/images/github.png" width = "55%" /></center>
@@ -88,55 +123,13 @@
             <br>
         </div>
     </div>
-    
-    <div class = "row">
-        <div class = "col-12 col-sm-4">
-            <center><img src = "/assets/images/telegram.png" width = "55%" /></center>
-            <br>
-        </div>
-        <div class = "col-12 col-sm-8">
-            <h1 class = "allcaps">Want to chat a bit?</h1>
-            <hr>
-            <p>
-            The Artemis community communicates through the open, private platform Telegram. Joining our group is extremely easy and the app is available for all mahor platforms, including Linux.
-            </p>
-            <p>
-            <center><a href = "http://t.me/enjadeproject" class = "btn btn-lg btn-primary allcaps">Join Telegram Group</a></center>
-            </p>
-            <br>
-        </div>
-    </div>
-    
-    <div class = "row">
-        <div class = "col-12 col-sm-4">
-            <center><img src = "/assets/images/discord.png" width = "55%" /></center>
-            <br>
-        </div>
-        <div class = "col-12 col-sm-8">
-            <h1 class = "allcaps">Want to discusss even further?</h1>
-            <hr>
-            <p>
-            The Artemis community communicates in a deeper scale with Discord, a popular chat application for Windows, Mac, and Linux. If you have a Discord account, joining our server is extremely easy with that button down below.
-            </p>
-            <p>
-            <center><a href = "https://discord.gg/wuSpUUr" class = "btn btn-lg btn-primary allcaps">Join Discord Server</a></center>
-            </p>
-            <br>
-        </div>
-    </div>
-  	<br />
-  <!--<div class = "row">
-  		<div class = "col">
-  			<h1 class = "allcaps">Email</h1>
-  			<hr>
-  			<p>
-  				Of course, you can always email the head maintainer of the website and project, Marquis Kurt.
-  			</p>
-  			<p>
-  				<center><a href = "mailto:ubunturox104@gmail.com" class = "btn btn-primary allcaps">Email maintainer</a></center>
-  			</p>
-    </div>-->
+    <br />
 </div>
+<script>
+    $(function () {
+      $('[data-toggle="popover"]').popover()
+      })
+</script>
 
 	</div>
 <footer class="footer">

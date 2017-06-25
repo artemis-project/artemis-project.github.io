@@ -45,10 +45,11 @@
         <a class="nav-link disabled" href="/dl">Download</a>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="text" placeholder="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
+    <form method="get" action="http://www.bing.com/search?" class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" name = "q" placeholder="Search">
+            <input type="hidden" name="q1" value="site:enjade-project.github.io/insights/" />
+            <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
+            </form>
   </div>
 </nav>
 
