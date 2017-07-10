@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
 
+@font-face{
+    font-family: GBold;
+    src: url(GBold.otf);
+}
+
+@font-face{
+    font-family: GLight;
+    src: url(GLight.otf);
+}
+
+@font-face{
+    font-family: Somatic;
+    src: url(Somatic.otf);
+}
+
 .navbar-inverted {
 	background-color: #212121;
 	color: white;
@@ -9,7 +24,10 @@
 	background: url("../images/zesty.png") no-repeat fixed center;
 }
 
-h1, h2, h3, h4, h5, h6, nav {font-family: 'Montserrat', sans-serif;}
+h1, h2, h3, h4, h5, h6 {font-family: 'Somatic', Futura, sans-serif;}
+.navbar-brand { font-family: 'Somatic', Futura, sans-serif;}
+nav { font-family: 'Roboto', Futura, sans-serif;}
+
 html, body {font-family: 'Roboto', sans-serif;}
 h6 {
 	text-transform: uppercase;
