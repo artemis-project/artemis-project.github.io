@@ -45,7 +45,7 @@ On the other hand, Qt is independently developed in C++. Qt is more feature-rich
 A final decision has not been made this early in the planning process, but we are currently leaning towards Qt, especially given some language considerations (see below).
 
 ## Languages
-Specifically, D vs. Swift is the argument we continue to have in the IM system. Let's take a deeper look at both of these. I'll try to hold my personal opinion for this.
+C was a well designed language. It's still pretty good for systems programming, but it's just not high-level enough for the applications layer that we are working on. C++ is... archaic, inimical, and abtruse, not to mention being... less well-designed than C. We are looking for better tools to use to build Artemis than C/C++. Specifically, D vs. Swift is the argument we continue to have in the IM system. Let's take a deeper look at both of these. I'll try to hold my personal opinion for this.
 
 ### Both
 Swift and D are similar. Like C/C++, they are compiled languages, so they tend to run faster than something like Python. They are also both open-source languages, so there are no legal issues we would run into using either language. They are both designed with systems programming in mind, and are both multi-paradigm (allowing for object-oriented and functional programming, among others). They can both dynamically and statically link to existing C libraries. They are both statically typed (meaning that the compiler knows the type of each variable at compile time).
