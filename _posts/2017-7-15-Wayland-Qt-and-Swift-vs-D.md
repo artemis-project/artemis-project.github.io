@@ -6,7 +6,7 @@ categories: design insight
 permalink: /insights/design/wayland-qt-and-swift-vs-d/
 excerpt_separator: <!--more-->
 ---
-Hello Artemis Community! I'm Wesley (some of you have probably met me in Telegram), and Marquis asked me to write this post about the stuff I've been posting and looking into recently.
+Hello Artemis Community! I'm Wesley (some of you have probably met me in Telegram), and Marquis asked me to write this post about the stuff I've been posting and looking into recently. Basically I've been doing a lot of looking and reading as to how to actually accomplish what we are trying to do here with Artemis. At this point, we're looking at creating a completely new project, rather than forking Unity7, which is seeming more and more like and endless amount of work for no really good reason. What I say below should be enough to explain that. This post is basically an overview of the technologies that are available to us and are mostly what we're thinking about using. Enjoy!
 
 <!--Hey folks!-->
 
