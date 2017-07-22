@@ -20,15 +20,12 @@
 	color: white;
 }
 
-.zesty {
-	background: url("../images/zesty.png") no-repeat fixed center;
-}
-
+/*
 h1, h2, h3, h4, h5, h6 {font-family: 'Somatic', Futura, sans-serif;}
 .navbar-brand { font-family: 'Somatic', Futura, sans-serif;}
 nav { font-family: 'Roboto', Futura, sans-serif;}
+*/
 
-html, body {font-family: 'Roboto', sans-serif;}
 h6 {
 	text-transform: uppercase;
 	color: #333;
