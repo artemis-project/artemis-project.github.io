@@ -47,16 +47,3 @@ h6 {
 .front-nav {
 background-color: #333333;
 }
-
-.btn-primary {
-	background-color: #ff80ab;
-	color: black;
-	border: #c94f7c;
-	box-shadow: 0px 4px 16px #333;
-}
-
-.btn-primary:hover {
-	background-color: #c94f7c;
-	color: white;
-	border: #c94f7c;
-}

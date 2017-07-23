@@ -3,95 +3,115 @@ layout: default
 title: About
 permalink: /about/
 ---
+<style>
+    html, body {
+        background: url("{{ site.baseurl }}/assets/images/about.png") no-repeat fixed center;
+        background-size: contain;
+        background-color: black;
+        color: white;
+    }
+    </style>
   <div class = "container-fluid">
   	<div class = "row">
   		<div class = "col">
   			<br />
   			<center>
-  			<h1 class = "display-3">Meet the {{ site.title }} family.</h1>
+  			<h1 class = "display-3"><b style = "font-weight: heavy;">Meet Artemis, the new Unity</b></h1>
   			<div class = "container">
   			<p class = "lead my-4">
-  				Whether you prefer using a Plasma-based environment with new innovations or a classic environment with feature updates and solid stability, the {{ site.title }} family of environments and projects has you covered.
+  				From the ground up, Artemis has been a project of keeping one of the best desktop environments alive while making it modernly available across all different kinds of Linux spaces and projects, preparing for the next generation of developers and tinkerers.
   			</p>
   			</div>
+            <img src = "{{ site.baseurl }}/assets/images/ubuntu-artemis-laptop-front.png" width = "70%">
   			</center>
   		</div>
   	</div>
   </div>
-  <div class = "container">
-  	<div class = "row">
-  		<div class = "col-12 col-sm-6">
-  			<h1 class = "allcaps">Core</h1>
-  			<hr>
-  			<p>
-  				<img src = "{{ site.baseurl }}/assets/images/ubuntu-enjade-core-laptop-front.png" width = "100%" />
-  			</p>
-  			<p>
-  				Looking for a Plasma-based environment that brings a wonderful Unity experience while getting new features continuously? Core brings new features constantly and supports new technologies in the modern Linux space like support for Wayland. With a plethora of plasmoids and a comprehensive Look&Feel package, Core brings the best experience for those who want to be on the bleeding edge of technology.
-  			</p>
-  		</div>
-  		<div class = "col-12 col-sm-6">
-  			<h1 class = "allcaps">Pure</h1>
-  			<hr>
-  			<p>
-  				<img src = "{{ site.baseurl }}/assets/images/ubuntu-14.04-laptop-front.png" width = "100%" />
-  			</p>
-  			<p>
-  				Want a stable, reliable, and venerable desktop environment while still getting new features? Pure is a direct fork of the Unity desktop, based off of X11 and Compiz technologies. While the cycle for feature development is much slower, it provides a solid experience, ready for any user who wants something that "just works".
-  			</p>
-  		</div>
-  	</div>
-  </div>
 </div>
-  <hr>
+<br />
+<br />
+<div class = "container">
+    <div class = "row">
+        <div class = "col-12 col-sm-4">
+            <center><img src = "{{ site.baseurl }}/assets/images/logos/swift.png" width = "55%" /></center>
+            <br>
+            <center><h3>Swiftly modern</h3></center>
+            <p>
+                Artemis and all of its core apps are powered by Swift, an open-source programming language for the future. It's never been easier to work with your apps and desktop on such a fundamental level.
+            </p>
+        </div>
+        <div class = "col-12 col-sm-4">
+            <center><img src = "{{ site.baseurl }}/assets/images/logos/qt.png" width = "55%" /></center>
+            <br>
+            <center><h3>Built with Qt</h3></center>
+            <p>
+                A powerful framework on hand, Qt provides the necessary tools and graphical components to make Artemis a powerful and comfortable experience without hiding any menus or other commands. Take that, GTK.
+            </p>
+        </div>
+        <div class = "col-12 col-sm-4">
+            <center><img src = "{{ site.baseurl }}/assets/images/logos/wayland.png" width = "55%" /></center>
+            <br>
+            <center><h3>Powered on Wayland</h3></center>
+            <p>
+            Artemis is ready for the future, meaning that modern technologies like Wayland are quickly adopted. Wayland beings the best experience without causing any fragmentation in display technologies.
+            </p>
+        </div>
+    </div>
+    </div>
+    <br />
+</div>
   <div class = "container">
   	<div class = "row">
   		<div class = "col">
   			<br />
   			<center>
-  			<h3 class = "display-4">Meet the {{ site.title }} team.</h3>
+  			<h1>A vibrant, modern, and fun community</h1>
   			<div class = "container">
   			<p class = "lead my-4">
-  				These main collaborators and contributors help make the {{ site.title }} project possible.
+  				Developers and Linux users alike are working on making Artemis the best desktop environment yet.
   			</p>
-        <hr>
   			</div>
   			</center>
   		</div>
   	</div>
     <br />
     <div class = "row">
-  		<div class = "col-sm-2 col-12">
-        <img src = "{{ site.baseurl }}/assets/images/team/mkurt.JPG" class = "rounded-circle" width = "80px" height = "80px" align = "right">
+  		<div class = "col-sm-1 col-1">
+        <img src = "{{ site.baseurl }}/assets/images/team/mkurt.JPG" class = "rounded-circle" width = "80px" height = "80px" align = "center">
   		</div>
-      <div class = "col-sm-3 col-12">
-        <h3>Marquis Kurt</h3>
-        <h5 class = "allcaps">Maintainer</h5>
+      <div class = "col-sm-1 col-1">
+        <img src = "{{ site.baseurl }}/assets/images/team/mtunnell.jpg" class = "rounded-circle" width = "80px" height = "80px" align = "center">
   		</div>
-      <div class = "col-sm-3 col-12">
-        <img src = "{{ site.baseurl }}/assets/images/team/mtunnell.jpg" class = "rounded-circle" width = "80px" height = "80px" align = "right">
+  		<div class = "col-sm-1 col-1">
+        <img src = "{{ site.baseurl }}/assets/images/team/jwee.jpg" class = "rounded-circle" width = "80px" height = "80px" align = "center">
   		</div>
-      <div class = "col-sm-3 col-12">
-        <h3>Michael Tunnell</h3>
-        <h5 class = "allcaps">Telegram Admin</h5>
+      <div class = "col-sm-1 col-1">
+        <img src = "{{ site.baseurl }}/assets/images/team/asarto.jpg" class = "rounded-circle" width = "80px" height = "80px" align = "center">
   		</div>
-  	</div>
-    <br />
-    <div class = "row">
-  		<div class = "col-sm-2 col-12">
-        <img src = "{{ site.baseurl }}/assets/images/team/jwee.jpg" class = "rounded-circle" width = "80px" height = "80px" align = "right">
-  		</div>
-      <div class = "col-sm-3 col-12">
-        <h3>Jott Wee</h3>
-        <h5 class = "allcaps">Pure Team Leader</h5>
-  		</div>
-      <div class = "col-sm-3 col-12">
-        <img src = "{{ site.baseurl }}/assets/images/team/asarto.jpg" class = "rounded-circle" width = "80px" height = "80px" align = "right">
-  		</div>
-      <div class = "col-sm-3 col-12">
-        <h3>Andrea del Sarto</h3>
-        <h5 class = "allcaps">Core Team Leader</h5>
-  		</div>
+      <div class = "col-sm-1 col-1">
+          <img src = "{{ site.baseurl }}/assets/images/team/whersh.png" class = "rounded-circle" width = "80px" height = "80px" align = "center">
+              </div>
+      <div class = "col-sm-1 col-1">
+          <img src = "{{ site.baseurl }}/assets/images/team/akolor.jpeg" class = "rounded-circle" width = "80px" height = "80px" align = "center">
+              </div>
+      <div class = "col-sm-1 col-1">
+          <img src = "{{ site.baseurl }}/assets/images/team/dan.jpg" class = "rounded-circle" width = "80px" height = "80px" align = "center">
+              </div>
+      <div class = "col-sm-1 col-1">
+          <img src = "{{ site.baseurl }}/assets/images/team/emanuel.jpg" class = "rounded-circle" width = "80px" height = "80px" align = "center">
+              </div>
+      <div class = "col-sm-1 col-1">
+          <img src = "{{ site.baseurl }}/assets/images/team/tel1.jpg" class = "rounded-circle" width = "80px" height = "80px" align = "center">
+              </div>
+      <div class = "col-sm-1 col-1">
+          <img src = "{{ site.baseurl }}/assets/images/team/tel2.jpg" class = "rounded-circle" width = "80px" height = "80px" align = "center">
+              </div>
+      <div class = "col-sm-1 col-1 hidden-xs-down">
+          <img src = "{{ site.baseurl }}/assets/images/team/tel3.jpg" class = "rounded-circle" width = "80px" height = "80px" align = "center">
+              </div>
+      <div class = "col-sm-1 col-1 hidden-xs-down">
+          <img src = "{{ site.baseurl }}/assets/images/team/tel4.jpg" class = "rounded-circle" width = "80px" height = "80px" align = "center">
+              </div>
   	</div>
   </div>
   <br />
