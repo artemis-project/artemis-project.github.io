@@ -2,29 +2,30 @@
 layout: frontpage
 title: Home
 ---
+<style>
+    .coreapps {
+        color: white;
+        background-color: black;
+    }
+</style>
+
 <div class="frontpage">
   <div class = "container-fluid">
   	<div class = "row">
   			<br />
-  			<center>
   			<div class = "container-fluid">
-                <h1 class = "display-2"><b>Artemis, the Swift machine is on.</b></h1>
-                <div class = "container-fluid">
-                    <p class = "lead my-2">
-                        Since the introduction of Artemis in April 2017, developers and designers alike have been working to keep Unity 7 alive. Now, Artemis may get the biggest change ever that completely rethinks the desktop since its inception in 2011, bringing about a new design and codebase for the next 20 years of future coders.
-                    </p>
-                </div>
-
-                <p class = "lead my-4">
-                <a href = "https://medium.com/@MacEatWindows/i-thought-about-artemis-for-a-while-and-i-think-i-turned-on-my-ink-machine-f14f4a532f9b" class = "btn btn-lg btn-warning allcaps">Learn more</a>
-                </p>
-            </div>
-  			</center>
-  		</div>
-      <div class = "row">
-          <div class = "container">
-              <center>
-                  <img src = "{{ site.baseurl }}/assets/images/ubuntu-artemis-laptop-front.png" width = "100%" />
+                <center>
+                <h1 class = "display-2" style = "font-weight: bold;">Artemis, the Swift machine is on.</h1>
+                <br />
+                  <img src = "{{ site.baseurl }}/assets/images/ubuntu-artemis-laptop-front.png" width = "50%" />
+                      <p class = "lead my-4">
+                      <a href = "https://medium.com/@MacEatWindows/i-thought-about-artemis-for-a-while-and-i-think-i-turned-on-my-ink-machine-f14f4a532f9b" class = "btn btn-lg btn-warning allcaps">Read Insight</a>
+                      &nbsp;
+                    <a href =http://www.github.com/artemis-project "" class = "btn btn-lg btn-warning allcaps">GitHub</a> &nbsp;
+                    <a href = "{{ site.baseurl }}/about/" class = "btn btn-lg btn-warning allcaps">Meet the new Artemis</a>
+                      </p>
+                      </div>
+            </center>
               </center>
         </div>
 
@@ -47,4 +48,31 @@ title: Home
         <p><a href = "{{ site.baseurl }}{{ post.url }}" class = "allcaps">Read more &rsaquo;</a></p>
     </div>
     {% endfor %}
+</div>
+</div>
+<div class = "coreapps">
+    <br />
+    <div class = "container">
+        <h1>Latest projects</h1>
+        <br />
+        <div class = "row">
+            <div class = "col-12 col-sm-4">
+                <center><img src = "{{ site.baseurl }}/assets/images/apps/chrysalis.png" width = "55%" /></center>
+                <br>
+                <center><a href = "http://www.github.com/artemis-project/chrysalis" class = "btn btn-lg btn-warning allcaps">Chrysalis</a></center>
+            </div>
+            <div class = "col-12 col-sm-4">
+                <center><img src = "{{ site.baseurl }}/assets/images/x-unity-applet-desktop.png" width = "55%" /></center>
+                <br>
+                <center><a href = "http://www.github.com/artemis-project/artemis" class = "btn btn-lg btn-warning allcaps">Artemis</a></center>
+            </div>
+            <div class = "col-12 col-sm-4">
+                <center><img src = "{{ site.baseurl }}/assets/images/apps/desiree.png" width = "55%" /></center>
+                <br>
+                <center><a href = "http://www.github.com/artemis-project/desiree" class = "btn btn-lg btn-warning allcaps">Desiree</a></center>
+            </div>
+        </div>
+        <br />
+    </div>
+    <br />
 </div>
