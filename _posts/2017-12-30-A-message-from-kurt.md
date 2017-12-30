@@ -1,11 +1,12 @@
 ---
 layout: post
-title: A message: this shall not die!
+title: This shall not die
 author: Marquis Kurt
 categories: design insight
-permalink: /insights/this-shant-die/
+permalink: /insight/this-shant-die/
 excerpt_separator: <!--more-->
 ---
+
 When I first started this project in April of 2017, I had no idea what to expect. I initially planned something smaller, assuming that I would have been the only one working on said project. I didn't even expect this community, to which I am sending this via Telegram, to emerge from it! As the months went by, ambitions for this project grew, now with some astronimical goals that I will be later addressing.
 
 <!--more-->
