@@ -2,7 +2,7 @@
 layout: post
 title: A message: this shall not die!
 author: Marquis Kurt
-categories: insight
+categories: design insight
 permalink: /insights/this-shant-die/
 excerpt_separator: <!--more-->
 ---
