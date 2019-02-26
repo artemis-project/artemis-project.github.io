@@ -1,95 +1,29 @@
----
-layout: frontpage
-title: Home
----
-<style>
-    .coreapps {
-        color: white;
-        background-color: black;
-    }
-
-.banner {
-    background-color: #c0392b;
-    color: white;
-}
-</style>
-<!--Need involvement banner-->
-<div class = "banner">
-    <br />
-    <div class = "container-fluid">
-        <p>The Artemis community is looking for active developers to work on making Artemis the best desktop yet by working on crucial components like AliceKit, Desiree, and Wayland compositors. You can help by submitting code and chatting with us. <a href = "https://t.me/enjadeproject"><b class = "allcaps" style = "color: white;">Get involved</b></a></p>
-    </div>
-    <br />
-</div>
-<div class="frontpage">
-  <div class = "container-fluid">
-  	<div class = "row">
-  			<br />
-  			<div class = "container-fluid">
-                <center>
-                <h1 class = "display-2" style = "font-weight: bold;">Artemis, the Swift machine is on.</h1>
-                <br />
-                  <img src = "{{ site.baseurl }}/assets/images/ubuntu-artemis-laptop-front.png" width = "50%" />
-                      <p class = "lead my-4">
-                      <a href = "https://medium.com/@MacEatWindows/i-thought-about-artemis-for-a-while-and-i-think-i-turned-on-my-ink-machine-f14f4a532f9b" class = "btn btn-lg btn-warning allcaps">Read Insight</a>
-                      &nbsp;
-                    <a href =http://www.github.com/artemis-project "" class = "btn btn-lg btn-warning allcaps">GitHub</a> &nbsp;
-                    <a href = "{{ site.baseurl }}/about/" class = "btn btn-lg btn-warning allcaps">Meet the new Artemis</a>
-                      </p>
-                      </div>
-            </center>
-              </center>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Artemis Project</title>
+        <link rel="stylesheet" href="site.css"/>
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+    <body>
+        <div class = "app-area">
+            <img src="assets/determination.svg" width="40%"/>
+            <h1>Howdy.</h1>
+            <p>We're currently going through some restructuring and reviving. Join us helping Artemis come back from the dead.</p>
+            <small>Chat with us:</small>
+            <div class = "button-group">
+                <a class = "button matrix" href="https://riot.im/app/#/room/#artemis:matrix.org">Join us on Matrix</a>
+                <a class = "button telegram" href="https://t.me/enjadeproject">Telegram</a>
+                <a class = "button discord" href="">Discord</a>
+            </div>
+            <br/>
+            <small>Regardless of the service of choice, you'll always be up to date. These services are bridged with each other.</small>
         </div>
-
-      </div>
-  	</div>
-  </div>
-</div>
-<br />
-<div class = "container">
-<h1>Latest insights</h1>
-<p></p>
-</div>
-<div class = "container">
-	<div class = "row">
-    {% for post in site.categories['insight'] limit:3 %}
-    <div class="col-sm-4 col-12">
-        <h4>{{ post.title }}</h4>
-        <h6>Written by: {{ post.author }}, {{ post.date | date: "%-d %b %y" }}</h6>
-        <p>{{ post.excerpt }}</p>
-        <p><a href = "{{ site.baseurl }}{{ post.url }}" class = "allcaps">Read more &rsaquo;</a></p>
-    </div>
-    {% endfor %}
-</div>
-</div>
-<div class = "coreapps">
-    <br />
-    <div class = "container">
-        <h1>Latest projects</h1>
-        <br />
-        <div class = "row">
-            <div class = "col-12 col-sm-3">
-                <center><img src = "{{ site.baseurl }}/assets/images/apps/chrysalis.png" width = "55%" /></center>
-                <br>
-                <center><a href = "http://www.github.com/artemis-project/chrysalis" class = "btn btn-lg btn-warning allcaps">Chrysalis</a></center>
-            </div>
-            <div class = "col-12 col-sm-3">
-                <center><img src = "{{ site.baseurl }}/assets/images/x-unity-applet-desktop.png" width = "55%" /></center>
-                <br>
-                <center><a href = "http://www.github.com/artemis-project/artemis" class = "btn btn-lg btn-warning allcaps">Artemis</a></center>
-            </div>
-            <div class = "col-12 col-sm-3">
-                <center><img src = "{{ site.baseurl }}/assets/images/apps/desiree.png" width = "55%" /></center>
-                <br>
-                <center><a href = "http://www.github.com/artemis-project/desiree" class = "btn btn-lg btn-warning allcaps">Desiree</a></center>
-            </div>
-            <div class = "col-12 col-sm-3">
-                <center><img src = "{{ site.baseurl }}/assets/images/apps/alicekit.png" width = "55%" /></center>
-                <br>
-                <center><a href = "https://github.com/artemis-project/alicekit/wiki" class = "btn btn-lg btn-warning allcaps">AliceKit</a></center>
-            </div>
-        </div>
-        <br />
-    </div>
-    <br />
-</div>
+    </body>
+</html>
