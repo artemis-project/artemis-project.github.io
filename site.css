@@ -51,6 +51,18 @@ small {
     margin-right: 4px;
 }
 
+.button:hover {
+    background-color: #555;
+}
+
+.button.disabled {
+    opacity: 0.75;
+}
+
+.button.disabled:hover {
+    background-color: #444;
+}
+
 
 .matrix {
     background-color: #03b381;
